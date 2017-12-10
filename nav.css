@@ -9,11 +9,37 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+
+#th-block {
+    background-image: url('http://content.screencast.com/users/natein/folders/Default/media/74331b55-99f6-4540-961e-f4517448749a/sec3.jpg');
+    background-attachment: fixed;
+    height: 700px;
+}
+
+#fr-block {
+    background-image: url('http://content.screencast.com/users/natein/folders/Default/media/7769e5a7-97e4-454e-9bf7-cd7445603b43/sec4.jpg');
+    background-attachment: fixed;
+    height: 230px;
+}
+
+#fv-block {
+    background-image: url('http://content.screencast.com/users/natein/folders/Default/media/7769e5a7-97e4-454e-9bf7-cd7445603b43/sec4.jpg');
+    background-attachment: fixed;
+    height: 230px;
+}
+
 nav {
     width: 100%;
-    margin-top: 5%;
+    margin-top: -78px;
     margin-bottom: 3%;
+    height: 80px;
     text-align: center;
+    position: fixed;
+    background: rgb(32, 27, 27);
+}
+
+nav ul {
+    margin-top: 20px;
 }
 
 nav ul li {
@@ -25,15 +51,12 @@ nav ul li a {
     font-family: calibri;
     font-size: 1.1em;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.7);
-    border-bottom: solid 1px rgb(0, 0, 0);
-    margin: 1%;
-    background-color: rgb(255, 255, 255);
+    color: white;
+    border-bottom: solid 1px #FFF;
     padding: 2%;
-    padding-top: 3%;
 }
 
 nav ul li a:hover {
-    border-bottom: solid 0.15em rgb(150, 0, 0);
-    color: rgb(0, 0, 0);
+    border-bottom: solid 0.15em wheat;
+    color: wheat;
 }
