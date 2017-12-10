@@ -13,7 +13,7 @@
     box-shadow: -1px 1px 8px 5px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.1);
     text-align: center;
     height: 560px;
-    background-image: url('http://content.screencast.com/users/natein/folders/Default/media/5e2dc7e2-f64d-4c9b-8001-08a44c6a377e/sec1.jpg');
+    background-image: url('./images/google.jpg');
     background-attachment: fixed;
 }
 
