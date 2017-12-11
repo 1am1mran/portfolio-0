@@ -17,7 +17,7 @@
 #main-wrap {
     margin: 0 auto;
     width: 1000px;
-    margin-top: -672px;
+    margin-top: -760px;
 }
 
 #page-name-bar {
@@ -33,10 +33,10 @@
 
 #myself {
     color: black;
-    font-size: 40px;
+    font-size: 50px;
     font-family: "Luckiest Guy";
     text-align: center;
-    margin-top: 40px;
+    padding: 100px;
 }
 
 

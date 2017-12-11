@@ -1,7 +1,7 @@
 #th-block {
     background-image: url('http://content.screencast.com/users/natein/folders/Default/media/74331b55-99f6-4540-961e-f4517448749a/sec3.jpg');
     background-attachment: fixed;
-    height: 500px;
+    height: 600px;
     margin-top: -600px;
 }
 
@@ -22,6 +22,7 @@ div.portfoliocard {
     border-radius: 10px;
     margin: 0 auto;
     overflow: hidden;
+    margin-top: -670px;
 }
 
 div.portfoliocard div.coverphoto {
@@ -44,15 +45,15 @@ div.portfoliocard div.right_col {
 }
 
 div.portfoliocard div.left_col {
-    width: 40%;
+    width: 26%;
     padding-top: 85px;
     box-sizing: border-box;
     /* background: #1B1A21; */
 }
 
 div.portfoliocard div.right_col {
-    width: 360px;
-    height: 280px;
+    width: 590px;
+    height: 350px;
     background: #1B1A21;
     border-style: none;
     box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7);
@@ -95,13 +96,12 @@ div.portfoliocard ul.contact_information {
 }
 
 div.portfoliocard ul.contact_information li {
-    height: 36px;
-    width: 340px;
+    height: 66px;
+    width: 490px;
     line-height: 25px;
     font-weight: 300;
     font-size: 20px;
     color: rgba(140, 140, 140, 1);
-    /* text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); */
     padding: 5px 0px;
     background-repeat: no-repeat;
     background-size: 18px 18px;
