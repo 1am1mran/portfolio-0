@@ -1,0 +1,412 @@
+#th-block {
+    /* background-image: url('http://content.screencast.com/users/natein/folders/Default/media/74331b55-99f6-4540-961e-f4517448749a/sec3.jpg'); */
+    background-attachment: fixed;
+    height: 400px;
+}
+
+a.nostyle {
+    color: inherit;
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+div.portfoliocard {
+    position: relative;
+    height: 400px;
+    width: 600px;
+    background: rgba(28, 26, 35, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.1), 0px 2px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+div.portfoliocard div.coverphoto {
+    width: 100%;
+    height: 120px;
+    background: url('./images/welcome.jpg');
+    background-size: 100% 100%;
+    background-position: right right;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 3px 20px rgba(255, 255, 255, 0.3), 1px 0px 2px rgba(255, 255, 255, 0.7);
+    /* z-index: 99; */
+}
+
+div.portfoliocard div.left_col,
+div.portfoliocard div.right_col {
+    float: left;
+    height: 400px;
+}
+
+div.portfoliocard div.left_col {
+    width: 40%;
+    padding-top: 85px;
+    box-sizing: border-box;
+    /* background: #1B1A21; */
+}
+
+div.portfoliocard div.right_col {
+    width: 360px;
+    height: 280px;
+    background: #1B1A21;
+    border-style: none;
+    box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7);
+    margin-left: -1px;
+    border-bottom-right-radius: 5px;
+}
+
+div.portfoliocard div.profile_picture {
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 45px;
+    left: 40px;
+    border-radius: 100%;
+    background-image: url('./images/profile.jpg');
+    background-size: 100% 100%;
+    padding: 7px;
+    border: 4px solid rgba(255, 255, 255, 1)
+}
+
+div.portfoliocard div.right_col h2.name {
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    padding: 0;
+    margin: 20px 10px 0px 30px;
+}
+
+div.portfoliocard div.right_col h3.location {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(170, 170, 170, 1);
+    padding: 0;
+    margin: -5px 10px 10px 30px;
+}
+
+div.portfoliocard ul.contact_information {
+    list-style-type: none;
+}
+
+div.portfoliocard ul.contact_information li {
+    height: 36px;
+    width: 340px;
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(140, 140, 140, 1);
+    /* text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); */
+    padding: 5px 0px;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+    cursor: default;
+    margin-left: -25px
+}
+
+div.portfoliocard ul.contact_information li:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    display: block;
+    float: left;
+    background-position: center;
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    opacity: 0.7;
+}
+
+div.portfoliocard ul.contact_information li:hover:before {
+    opacity: 1;
+}
+
+div.portfoliocard ul.contact_information li.work:before {
+    background-image: url('./social/case.png');
+}
+
+div.portfoliocard ul.contact_information li.website:before {
+    background-image: url('./social/globe.png');
+}
+
+div.portfoliocard ul.contact_information li.mail:before {
+    background-image: url('./social/paper_plane.png');
+}
+
+div.portfoliocard ul.contact_information li.phone:before {
+    background-image: url('./social/phone.png');
+}
+
+div.portfoliocard ul.contact_information li.resume:before {
+    background-image: url('./social/inbox.png');
+}
+
+/* @media screen and (min-width: 1025px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    div.portfoliocard {
+        height: 360px;
+        width: 800px;
+    }
+    div.portfoliocard div.coverphoto {
+        width: 100%;
+        height: 70px;
+    }
+    div.portfoliocard div.profile_picture {
+        width: 40px;
+        height: 40px;
+        margin: -20px 10px 20px;
+    }
+    div.portfoliocard div.left_col {
+        width: 0.1px;
+        background: #1B1A21;
+    }
+    div.portfoliocard div.right_col {
+        width: 50px;
+        height: 10px;
+    }
+    div.portfoliocard div.right_col h2.name {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 16px;
+    }
+    div.portfoliocard div.right_col h3.location {
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 10px;
+        margin-left: 16px;
+    }
+    div.portfoliocard ul.contact_information {
+        height: 120px;
+        width: 230px;
+    }
+    div.portfoliocard ul.contact_information li {
+        height: 20px;
+        width: 230px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    div.portfoliocard {
+        height: 360px;
+        width: 550px;
+    }
+    div.portfoliocard div.coverphoto {
+        width: 100%;
+        height: 84px;
+    }
+    div.portfoliocard div.profile_picture {
+        width: 80px;
+        height: 80px;
+        margin: -20px 10px 20px;
+    }
+    div.portfoliocard div.left_col {
+        width: 200px;
+        height: 20px;
+    }
+    div.portfoliocard div.right_col {
+        width: 350px;
+        height: 300px;
+    }
+    div.portfoliocard div.right_col h2.name {
+        font-size: 28px;
+        margin-top: 30px;
+        margin-left: 16px;
+    }
+    div.portfoliocard div.right_col h3.location {
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 10px;
+        margin-left: 18px;
+    }
+    div.portfoliocard ul.contact_information {
+        height: 300px;
+        width: 340px;
+    }
+    div.portfoliocard ul.contact_information li {
+        height: 20px;
+        width: 330px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 767px) {
+    div.portfoliocard {
+        height: 360px;
+        width: 450px;
+    }
+    div.portfoliocard div.coverphoto {
+        width: 100%;
+        height: 75px;
+    }
+    div.portfoliocard div.profile_picture {
+        width: 70px;
+        height: 70px;
+        margin: -40px 10px 20px;
+    }
+    div.portfoliocard div.left_col {
+        width: 120px;
+        height: 20px;
+    }
+    div.portfoliocard div.right_col {
+        width: 320px;
+        height: 280px;
+    }
+    div.portfoliocard div.right_col h2.name {
+        font-size: 26px;
+        margin-top: 30px;
+        margin-left: 16px;
+    }
+    div.portfoliocard div.right_col h3.location {
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 10px;
+        margin-left: 16px;
+    }
+    div.portfoliocard ul.contact_information {
+        height: 280px;
+        width: 310px;
+    }
+    div.portfoliocard ul.contact_information li {
+        height: 30px;
+        width: 300px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+    div.portfoliocard {
+        height: 360px;
+        width: 350px;
+    }
+    div.portfoliocard div.coverphoto {
+        width: 100%;
+        height: 70px;
+    }
+    div.portfoliocard div.profile_picture {
+        width: 60px;
+        height: 60px;
+        margin: -30px 10px 40px;
+    }
+    div.portfoliocard div.left_col {
+        width: 0.1px;
+        background: #1B1A21;
+    }
+    div.portfoliocard div.right_col {
+        width: 350px;
+        height: 360px;
+    }
+    div.portfoliocard div.right_col h2.name {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: 16px;
+    }
+    div.portfoliocard div.right_col h3.location {
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 2px;
+        margin-left: 16px;
+    }
+    div.portfoliocard ul.contact_information {
+        height: 150px;
+        width: 300px;
+    }
+    div.portfoliocard ul.contact_information li {
+        height: 20px;
+        width: 300px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    div.portfoliocard {
+        height: 360px;
+        width: 300px;
+    }
+    div.portfoliocard div.coverphoto {
+        width: 100%;
+        height: 74px;
+    }
+    div.portfoliocard div.profile_picture {
+        width: 50px;
+        height: 50px;
+        margin: -20px 10px 20px;
+    }
+    div.portfoliocard div.left_col {
+        width: 0.1px;
+        background: #1B1A21;
+    }
+    div.portfoliocard div.right_col {
+        width: 300px;
+        height: 280px;
+    }
+    div.portfoliocard div.right_col h2.name {
+        font-size: 22px;
+        margin-top: 40px;
+        margin-left: 16px;
+    }
+    div.portfoliocard div.right_col h3.location {
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 2px;
+        margin-left: 16px;
+    }
+    div.portfoliocard ul.contact_information {
+        height: 130px;
+        width: 280px;
+    }
+    div.portfoliocard ul.contact_information li {
+        height: 20px;
+        width: 280px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 320px) {
+    div.portfoliocard {
+        height: 360px;
+        width: 250px;
+    }
+    div.portfoliocard div.coverphoto {
+        width: 100%;
+        height: 70px;
+    }
+    div.portfoliocard div.profile_picture {
+        width: 40px;
+        height: 40px;
+        margin: -20px 10px 20px;
+    }
+    div.portfoliocard div.left_col {
+        width: 0.1px;
+        background: #1B1A21;
+    }
+    div.portfoliocard div.right_col {
+        width: 50px;
+        height: 10px;
+    }
+    div.portfoliocard div.right_col h2.name {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 16px;
+    }
+    div.portfoliocard div.right_col h3.location {
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 10px;
+        margin-left: 16px;
+    }
+    div.portfoliocard ul.contact_information {
+        height: 120px;
+        width: 230px;
+    }
+    div.portfoliocard ul.contact_information li {
+        height: 20px;
+        width: 230px;
+        font-size: 12px;
+    }
+} */
