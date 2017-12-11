@@ -2,7 +2,7 @@
 #first-block {
     background: #fff;
     /* margin: 3% auto; */
-    padding: 50px 30px;
+    padding: 10px 30px;
     border: 1px solid white;
     margin-top: 100px;
     -webkit-box-shadow: -1px 1px 8px 5px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.1);
@@ -12,7 +12,7 @@
     -ms-box-shadow: -1px 1px 8px 5px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.1);
     box-shadow: -1px 1px 8px 5px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.1);
     text-align: center;
-    height: 560px;
+    height: 800px;
     background-image: url('./images/google.jpg');
     background-attachment: fixed;
 }
@@ -20,8 +20,9 @@
 #first-block h1 {
     color: #dc152c;
     font-weight: normal;
-    font-size: 70px;
+    font-size: 100px;
     margin: 0 0 10px 0;
+    margin-top: 150px;
 }
 
 #first-block h1::first-letter {
@@ -43,11 +44,12 @@
 
 .content {
     text-align: left;
+    background: white;
 }
 
 .content ul {
     padding: 0;
-    margin: 0;
+    margin-top: 20px;
     font: 22px Arial;
 }
 

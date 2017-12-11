@@ -1,7 +1,8 @@
 #th-block {
-    /* background-image: url('http://content.screencast.com/users/natein/folders/Default/media/74331b55-99f6-4540-961e-f4517448749a/sec3.jpg'); */
+    background-image: url('http://content.screencast.com/users/natein/folders/Default/media/74331b55-99f6-4540-961e-f4517448749a/sec3.jpg');
     background-attachment: fixed;
-    height: 400px;
+    height: 500px;
+    margin-top: -600px;
 }
 
 a.nostyle {
@@ -13,8 +14,8 @@ a.nostyle {
 
 div.portfoliocard {
     position: relative;
-    height: 400px;
-    width: 600px;
+    height: 480px;
+    width: 800px;
     background: rgba(28, 26, 35, 0.1);
     border: 1px solid rgba(0, 0, 0, 0.7);
     box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.1), 0px 2px 6px rgba(0, 0, 0, 0.5);
@@ -60,8 +61,8 @@ div.portfoliocard div.right_col {
 }
 
 div.portfoliocard div.profile_picture {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     background: rgba(255, 255, 255, 1);
     position: absolute;
     top: 45px;
