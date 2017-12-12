@@ -1,7 +1,17 @@
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
 
 #first-block {
     background: #fff;
-    /* margin: 3% auto; */
     padding: 10px 30px;
     border: 1px solid white;
     margin-top: 100px;
@@ -58,7 +68,7 @@
 }
 
 .content ul li a {
-    color: grey;
+    color: rgb(45, 45, 143);
 }
 
 .content ul li span {
@@ -72,7 +82,7 @@
 }
 
 .content ul li span:nth-child(2) a {
-    color: whitesmoke;
+    color: red;
     text-decoration: none;
 }
 
@@ -86,7 +96,6 @@
     float: left;
     width: 100%;
     margin-bottom: 10px;
-
     background: white
 }
 
@@ -109,8 +118,7 @@
     border-left: 0.1em solid black;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    /* -webkit-animation: typing 1s steps(20, end), blink-caret 1s step-end infinite; */
-    /* -moz-animation: typing 1s steps(20, end), blink-caret 1s step-end infinite; */
+    -webkit-animation: typing 1s steps(20, end), blink-caret .5s step-end infinite alternate;
 }
 
 .animated {

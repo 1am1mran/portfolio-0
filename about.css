@@ -9,7 +9,7 @@
 }
 
 #sec-block {
-    background-image: url('./images/about.jpg');
+    /* background-image: url('./images/about.jpg'); */
     background-attachment: fixed;
     height: 100%;
 }
@@ -56,7 +56,7 @@
 
 .timeline {
     position: relative;
-    height: 110em;
+    height: 106em;
     margin: 670px auto;
     padding: 160px 0;
     margin-left: -12px;
@@ -69,7 +69,7 @@
     left: 50%;
     width: 4px;
     height: 100%;
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(14, 7, 29);
     margin-left: -2px;
 }
 
@@ -96,15 +96,9 @@
     float: right;
 }
 
-.timeline__item:nth-child(2n) .timeline__item__content::after {
+.timeline__item:nth-child(2n) .timeline__item__content::before {
     content: '';
     right: 40%;
-    left: inherit;
-}
-
-.timeline__item:nth-of-type(odd) .timeline__item__content::after {
-    content: '';
-    right: 50%;
     left: inherit;
 }
 
@@ -123,11 +117,11 @@
 .timeline__item-bg {
     -webkit-transition: all 1s ease-out;
     transition: all 1s ease-out;
-    color: rgb(77, 77, 77);
+    color: rgb(14, 7, 29);
 }
 
 .timeline__item-bg:nth-child(2n) .timeline__item__station {
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(14, 7, 29);
 }
 
 .timeline__item-bg:nth-child(2n) .timeline__item__content {
@@ -143,7 +137,7 @@
 }
 
 .timeline__item-bg .timeline__item__station {
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(14, 7, 29);
 }
 
 .timeline__item-bg .timeline__item__content {
@@ -151,7 +145,7 @@
 }
 
 .timeline__item-bg .timeline__item__content::before {
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(14, 7, 29);
 }
 
 .timeline__item-bg .timeline__item__content__description {
@@ -168,7 +162,7 @@
     top: 0;
     left: 10%;
     margin-left: 360px;
-    border: 6px solid rgb(77, 77, 77);
+    border: 6px solid rgb(14, 7, 29);
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
 }
@@ -176,7 +170,7 @@
 .timeline__item__content {
     width: 40%;
     background: #fff;
-    border: 4px solid rgb(77, 77, 77);
+    border: 4px solid rgb(14, 7, 29);
     padding: 30px 40px;
     border-radius: 6px;
     float: right;
@@ -195,9 +189,9 @@
 .timeline__item__content::before {
     content: '';
     position: absolute;
-    left: 10%;
-    background-color: rgb(77, 77, 77);
-    top: 20px;
+    left: 40%;
+    background-color: rgb(14, 7, 29);
+    top: 25px;
     width: 10%;
     height: 4px;
     z-index: -1;

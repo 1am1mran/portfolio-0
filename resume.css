@@ -1,0 +1,43 @@
+#fr-block {
+    background-image: url('./images/resume.jpg');
+    background-attachment: fixed;
+    /* background-repeat: no-repeat;  */
+    height: 100%;
+    color: white;
+    margin-top: 200px;
+}
+
+.resume-main {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+.resume-main>h1{
+    background: black;
+}
+.resume-main>div>h5{
+    background: black;
+}
+table{
+    color: black;
+    background: white;
+    margin: 0 auto;
+}
+.strengths{
+    text-align: center;
+}
+/* .strengths>ul>li{
+    list-style-type: disc;
+    padding-left: 32px;
+    text-align: center;
+    float: left;
+} */
+.strengths>ul>li { 
+    margin:0;
+    padding:0;
+}
+table,
+th,
+td {
+    border: 5px solid black;
+}
