@@ -154,6 +154,9 @@ div.portfoliocard ul.contact_information li.resume:before {
     height: 120px;
     background: red;
 }
+#social_footer>img{
+    font-size: 30px;
+}
 
 /* @media screen and (min-width: 1025px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
     div.portfoliocard {
