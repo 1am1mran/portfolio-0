@@ -1,8 +1,9 @@
 #th-block {
-    background-image: url('http://content.screencast.com/users/natein/folders/Default/media/74331b55-99f6-4540-961e-f4517448749a/sec3.jpg');
+    background-image: url('./images/profile1.png');
     background-attachment: fixed;
     height: 600px;
-    margin-top: -600px;
+    margin-top: -670px;
+    padding-top: 690px;
 }
 
 a.nostyle {
@@ -22,7 +23,7 @@ div.portfoliocard {
     border-radius: 10px;
     margin: 0 auto;
     overflow: hidden;
-    margin-top: -670px;
+    margin-top: -570px;
 }
 
 div.portfoliocard div.coverphoto {
@@ -96,29 +97,29 @@ div.portfoliocard ul.contact_information {
 }
 
 div.portfoliocard ul.contact_information li {
-    height: 66px;
+    height: 6px;
     width: 490px;
-    line-height: 25px;
+    line-height: 30px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 30px;
     color: rgba(140, 140, 140, 1);
-    padding: 5px 0px;
+    padding: 30px 0px;
     background-repeat: no-repeat;
     background-size: 18px 18px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
     cursor: default;
-    margin-left: -25px
+    margin-left: 25px
 }
 
 div.portfoliocard ul.contact_information li:before {
     content: "";
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 30px;
     display: block;
     float: left;
     background-position: center;
-    background-size: 18px 18px;
+    background-size: 25px 25px;
     background-repeat: no-repeat;
     margin-right: 15px;
     opacity: 0.7;
@@ -129,19 +130,19 @@ div.portfoliocard ul.contact_information li:hover:before {
 }
 
 div.portfoliocard ul.contact_information li.work:before {
-    background-image: url('./social/case.png');
+    background-image: url('./images/case.png');
 }
 
 div.portfoliocard ul.contact_information li.website:before {
-    background-image: url('./social/globe.png');
+    background-image: url('./images/globe.png');
 }
 
 div.portfoliocard ul.contact_information li.mail:before {
-    background-image: url('./social/paper_plane.png');
+    background-image: url('./images/paper_plane.png');
 }
 
 div.portfoliocard ul.contact_information li.phone:before {
-    background-image: url('./social/phone.png');
+    background-image: url('./images/phone.png');
 }
 
 div.portfoliocard ul.contact_information li.resume:before {
