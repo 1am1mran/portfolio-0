@@ -1,27 +1,33 @@
 #fr-block {
-    background-image: url('./images/resume.jpg');
+    background-image: url('./images/resum.jpg');
     background-attachment: fixed;
+    background-size: cover;
     /* background-repeat: no-repeat;  */
-    height: 100%;
+    /* height: 100%; */
     color: white;
     margin-top: 200px;
 }
 
 .resume-main {
     text-align: center;
+    /* width: 620px; */
     width: 100%;
-    font-size: 30px;
+    font-size: 18px;
+    margin: 0 auto;
 }
 .resume-main>h1{
-    background: black;
+    /* background: #7dd2d9; */
 }
 .resume-main>div>h5{
-    background: black;
+    /* background: #7dd2d9; */
 }
 table{
-    color: black;
-    background: white;
+    color: #fff;
+    /* background: #ff6f69; */
     margin: 0 auto;
+}
+.skills{
+    width: 100%;
 }
 .strengths{
     text-align: center;
@@ -39,5 +45,5 @@ table{
 table,
 th,
 td {
-    border: 5px solid black;
+    border: 5px solid #fff;
 }
