@@ -15,8 +15,8 @@ a.nostyle {
 
 div.portfoliocard {
     position: relative;
-    height: 480px;
-    width: 100%;
+    height: 550px;
+    max-width: 80%;
     background: rgba(28, 26, 35, 0.1);
     border: 1px solid rgba(0, 0, 0, 0.7);
     box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.1), 0px 2px 6px rgba(0, 0, 0, 0.5);
@@ -46,14 +46,14 @@ div.portfoliocard div.right_col {
 }
 
 div.portfoliocard div.left_col {
-    width: 26%;
+    width: 30%;
     padding-top: 85px;
     box-sizing: border-box;
     /* background: #1B1A21; */
 }
 
 div.portfoliocard div.right_col {
-    width: 590px;
+    width: 70%;
     height: 350px;
     background: #1B1A21;
     border-style: none;
@@ -99,7 +99,7 @@ div.portfoliocard ul.contact_information {
 div.portfoliocard ul.contact_information li {
     height: 6px;
     width: 490px;
-    line-height: 30px;
+    line-height: 5px;
     font-weight: 300;
     font-size: 30px;
     color: rgba(140, 140, 140, 1);
@@ -109,24 +109,26 @@ div.portfoliocard ul.contact_information li {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
     cursor: default;
-    margin-left: 25px
+    /* margin-left: 25px */
 }
 
 div.portfoliocard ul.contact_information li:before {
     content: "";
-    width: 40px;
+    width: 30px;
     height: 30px;
     display: block;
     float: left;
     background-position: center;
-    background-size: 25px 25px;
+    background-size: 20px 20px;
     background-repeat: no-repeat;
-    margin-right: 15px;
-    opacity: 0.7;
+    /* margin-right: 10px;
+    opacity: 0.7;*/
+    margin-bottom: 30px;
 }
 
-div.portfoliocard ul.contact_information li:hover:before {
-    opacity: 1;
+div.portfoliocard ul.contact_information li:hover {
+    background-color: whitesmoke;
+    color: #1B1A21;
 }
 
 div.portfoliocard ul.contact_information li.work:before {
@@ -149,19 +151,21 @@ div.portfoliocard ul.contact_information li.resume:before {
     background-image: url('./social/inbox.png');
 }
 
-#social_footer{
-    margin-top: 200px;;
+#social_footer {
+    margin-top: 200px;
+    ;
     width: 100%;
     height: 120px;
     background: #3B384E;
     text-align: center;
 }
-#social_footer>a>img{
+
+#social_footer>a>img {
     font-size: 30px;
     margin-top: 40px;
 }
 
-/* @media screen and (min-width: 1025px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
     div.portfoliocard {
         height: 360px;
         width: 800px;
@@ -205,7 +209,7 @@ div.portfoliocard ul.contact_information li.resume:before {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     div.portfoliocard {
         height: 360px;
         width: 550px;
@@ -249,31 +253,31 @@ div.portfoliocard ul.contact_information li.resume:before {
     }
 }
 
-@media screen and (min-width: 641px) and (max-width: 767px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
     div.portfoliocard {
         height: 360px;
         width: 450px;
     }
     div.portfoliocard div.coverphoto {
         width: 100%;
-        height: 75px;
+        height: 85px;
     }
     div.portfoliocard div.profile_picture {
-        width: 70px;
-        height: 70px;
-        margin: -40px 10px 20px;
+        width: 90px;
+        height: 90px;
+        margin: 10px 10px;
     }
     div.portfoliocard div.left_col {
-        width: 120px;
+        width: 30%;
         height: 20px;
     }
     div.portfoliocard div.right_col {
-        width: 320px;
-        height: 280px;
+        width: 70%;
+        height: 270px;
     }
     div.portfoliocard div.right_col h2.name {
         font-size: 26px;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-left: 16px;
     }
     div.portfoliocard div.right_col h3.location {
@@ -283,13 +287,18 @@ div.portfoliocard ul.contact_information li.resume:before {
         margin-left: 16px;
     }
     div.portfoliocard ul.contact_information {
-        height: 280px;
-        width: 310px;
+        height: 190px;
+        width: 100%;
+        ;
     }
     div.portfoliocard ul.contact_information li {
-        height: 30px;
-        width: 300px;
-        font-size: 17px;
+        height: 40px;
+        width: 100%;
+        font-size: 18px;
+    }
+    div.portfoliocard ul.contact_information li:before {
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -423,4 +432,4 @@ div.portfoliocard ul.contact_information li.resume:before {
         width: 230px;
         font-size: 12px;
     }
-} */
+}
