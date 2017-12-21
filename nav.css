@@ -52,25 +52,6 @@ nav ul li a:hover {
 }
 
 
-/* nav ul li a:before
-{
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    left: 0px;
-    bottom: 0px;
-    content: '';
-    background: #FFF;
-    opacity: 0.3;
-    transition: all 0.3s;
-}
-
-nav ul li a:hover:before
-{
-    height: 100%;
-} */
-
-
 /* Media Queries */
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -86,7 +67,7 @@ nav ul li a:hover:before
     nav ul li a {
         font-size: 10px;
     }
-    .mylogo{
+    .mylogo {
         width: 20%;
     }
 }
@@ -104,7 +85,7 @@ nav ul li a:hover:before
     nav ul li a {
         font-size: 12px;
     }
-    .mylogo{
+    .mylogo {
         width: 15%;
     }
 }
@@ -123,7 +104,7 @@ nav ul li a:hover:before
     nav ul li a {
         font-size: 14px;
     }
-    .mylogo{
+    .mylogo {
         width: 13%;
         height: 100%;
     }
@@ -142,7 +123,7 @@ nav ul li a:hover:before
     nav ul li a {
         font-size: 16px;
     }
-    .mylogo{
+    .mylogo {
         width: 10%;
     }
 }
