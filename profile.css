@@ -153,7 +153,6 @@ div.portfoliocard ul.contact_information li.resume:before {
 
 #social_footer {
     margin-top: 200px;
-    ;
     width: 100%;
     height: 120px;
     background: #3B384E;
@@ -168,7 +167,6 @@ div.portfoliocard ul.contact_information li.resume:before {
 @media screen and (min-width: 1025px) and (max-width: 1600px) {
     div.portfoliocard {
         height: 480px;
-        ;
         width: 60%;
     }
     div.portfoliocard div.coverphoto {
@@ -208,12 +206,22 @@ div.portfoliocard ul.contact_information li.resume:before {
         width: 330px;
         font-size: 20px;
     }
+    #social_footer {
+        margin-top: 200px;
+        width: 100%;
+        height: 120px;
+        background: #3B384E;
+        text-align: center;
+    }
+    #social_footer>a>img {
+        font-size: 30px;
+        margin-top: 40px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     div.portfoliocard {
         height: 450px;
-        ;
         width: 60%;
     }
     div.portfoliocard div.coverphoto {
@@ -252,6 +260,17 @@ div.portfoliocard ul.contact_information li.resume:before {
         height: 10px;
         width: 330px;
         font-size: 20px;
+    }
+    #social_footer {
+        margin-top: 200px;
+        width: 100%;
+        height: 120px;
+        background: #3B384E;
+        text-align: center;
+    }
+    #social_footer>a>img {
+        font-size: 30px;
+        margin-top: 40px;
     }
 }
 
@@ -302,6 +321,17 @@ div.portfoliocard ul.contact_information li.resume:before {
         width: 20px;
         height: 20px;
     }
+    #social_footer {
+        margin-top: 200px;
+        width: 100%;
+        height: 120px;
+        background: #3B384E;
+        text-align: center;
+    }
+    #social_footer>a>img {
+        font-size: 30px;
+        margin-top: 40px;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 640px) {
@@ -349,6 +379,17 @@ div.portfoliocard ul.contact_information li.resume:before {
     div.portfoliocard ul.contact_information li:before {
         width: 20px;
         height: 20px;
+    }
+    #social_footer {
+        margin-top: 200px;
+        width: 100%;
+        height: 120px;
+        background: #3B384E;
+        text-align: center;
+    }
+    #social_footer>a>img {
+        font-size: 30px;
+        margin-top: 40px;
     }
 }
 
@@ -398,6 +439,17 @@ div.portfoliocard ul.contact_information li.resume:before {
         width: 20px;
         height: 20px;
     }
+    #social_footer {
+        margin-top: 200px;
+        width: 100%;
+        height: 120px;
+        background: #3B384E;
+        text-align: center;
+    }
+    #social_footer>a>img {
+        font-size: 30px;
+        margin-top: 40px;
+    }
 }
 
 @media screen and (min-width: 280px) and (max-width: 320px) {
@@ -441,5 +493,16 @@ div.portfoliocard ul.contact_information li.resume:before {
         height: 20px;
         width: 230px;
         font-size: 12px;
+    }
+    #social_footer {
+        /* margin-top: 200px; */
+        width: 100%;
+        height: 120px;
+        background: #3B384E;
+        text-align: center;
+    }
+    #social_footer>a>img {
+        font-size: 10px;
+        margin-top: 140px;
     }
 }
