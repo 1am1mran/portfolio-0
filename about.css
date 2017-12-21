@@ -9,7 +9,6 @@
 }
 
 #sec-block {
-    /* background-image: url('./images/about.jpg'); */
     background-attachment: fixed;
     height: 100%;
 }
@@ -72,14 +71,6 @@
     background-color: rgb(14, 7, 29);
     margin-left: -2px;
 }
-
-
-/* @media (min-width: 800px) {
-    .timeline::before {
-        left: 50%;
-        margin-left: -2px;
-    }
-} */
 
 .timeline__item {
     margin-bottom: 100px;
