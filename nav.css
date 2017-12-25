@@ -30,6 +30,8 @@ nav {
 
 nav ul {
     margin-top: 20px;
+    /* position: absolute; */
+    position: relative;
 }
 
 nav ul li {
